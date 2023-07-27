@@ -6,7 +6,7 @@
 .pnp.js
 .prettierignore
 .prettierconfig.json
-.eslintconfig.json
+.eslintrc.json
 
 # testing
 /coverage
