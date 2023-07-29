@@ -1,5 +1,5 @@
 function Sidebar() {
-  return <aside>Sidebar!</aside>;
+  return <nav>Sidebar is where it's at</nav>;
 }
 
 export default Sidebar;
