@@ -1,6 +1,8 @@
+import React from 'react';
 import { Typography, Box, useTheme } from '@mui/material';
 import { tokens } from '../theme';
 
+// eslint-disable-next-line react/prop-types
 function Header({ title, subtitle }) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

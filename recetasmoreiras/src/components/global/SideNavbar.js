@@ -1,23 +1,24 @@
+import React from 'react';
 import {
   Box,
-  IconButton,
-  useTheme,
-  InputBase,
-  Icon,
+  // IconButton,
+  // useTheme,
+  // InputBase,
+  // Icon,
   Divider,
   List,
   ListItemIcon,
 } from '@mui/material';
-import { useContext } from 'react';
-import { ColorModeContext, tokens } from '../../theme';
+// import { useContext } from 'react';
+// import { ColorModeContext, tokens } from '../../theme';
 import OutdoorGrillOutLinedIcon from '@mui/icons-material/OutdoorGrillOutlined';
 import AdminOutLinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
 
 function SideNavbar() {
-  const theme = useTheme();
-  const colors = tokens(theme.palette.mode);
-  const colorMode = useContext(ColorModeContext);
+  // const theme = useTheme();
+  // const colors = tokens(theme.palette.mode);
+  // const colorMode = useContext(ColorModeContext);
   return (
     <Box
       display="flex"
