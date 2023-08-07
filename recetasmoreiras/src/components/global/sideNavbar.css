@@ -1,0 +1,26 @@
+/* The wrapper around each icon and text */
+/* *Also these themes and colors are only placeholder for now, until I get a better sense of css styling fundamentals in terms of flexbox etc */
+.sideNavbarListContainer {
+  background: #70d8bd;
+  height: 80px;
+  width: 240px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Side Navbar icons */
+/* *Also these themes and colors are only placeholder for now, until I get a better sense of css styling fundamentals in terms of flexbox etc */
+.sideNavbarListIcons {
+  margin-left: 2rem;
+  color: red;
+}
+
+/* Side Navbar text */
+/* ?question as to if this is working/targeting correctly */
+/* *Also these themes and colors are only placeholder for now, until I get a better sense of css styling fundamentals in terms of flexbox etc */
+.sideNavbarText {
+  background-color: purple;
+  font-weight: 900;
+  font-size: 16px;
+}
