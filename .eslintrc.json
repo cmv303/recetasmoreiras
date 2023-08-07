@@ -1,5 +1,7 @@
 {
-    "extends": ["react-app", "react-app/jest", "prettier"],
+  "plugins": ["react"],
+  "extends": ["react-app", "react-app/jest", "prettier", "eslint:recommended",
+  "plugin:react/recommended"],
     "rules" : {
       "semi" : "warn",
       "eqeqeq": "warn",

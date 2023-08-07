@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import Header from '../../components/Header';
 
-function Dashboard() {
+function Home() {
   return (
     <Box margin="20px">
       <Box display="flex" justifyContent="space-between" alignItems="center">

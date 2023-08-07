@@ -1,11 +1,11 @@
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
-import Topbar from './scenes/global/Topbar';
-import SideNavbar from './scenes/global/SideNavbar';
-import Dashboard from './scenes/dashboard';
-import Admin from './scenes/dashboard/admin';
-import Recipes from './scenes/dashboard/recipes';
+import Topbar from './components/global/Topbar';
+import SideNavbar from './components/global/SideNavbar';
+import Home from './pages/home/';
+import Admin from './pages/admin/admin';
+import Recipes from './pages/recipes/recipes';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -19,7 +19,7 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route exact path="/" element={<Home />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/recipes" element={<Recipes />} />
             </Routes>
