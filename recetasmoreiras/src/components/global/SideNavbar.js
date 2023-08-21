@@ -1,18 +1,10 @@
 import React from 'react';
-import '../global/sideNavbar.css';
-import {
-  Box,
-  // IconButton,
-  // useTheme,
-  // InputBase,
-  // Icon,
-  Divider,
-  List,
-  ListItemIcon,
-} from '@mui/material';
+// import { tokens } from '../../theme';
 // import { useContext } from 'react';
-// import { ColorModeContext, tokens } from '../../theme';
-import OutdoorGrillOutLinedIcon from '@mui/icons-material/OutdoorGrillOutlined';
+// import { ColorModeContext } from '../../theme';
+import '../global/sideNavbar.css';
+import { Box, Divider, List, ListItemIcon } from '@mui/material';
+import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import AdminOutLinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined';
 import HamburgerOutlinedIcon from '@mui/icons-material/ListOutlined';
 
@@ -31,7 +23,10 @@ function SideNavbar() {
       {/* Doubting the need for all these classes. I think that they are overlapping each other and one or more may not be necessary */}
       <List className="sideNavbarListContainer">
         <ListItemIcon className="sideNavbarText">
-          <HamburgerOutlinedIcon className="sideNavbarListIcons" />
+          <HamburgerOutlinedIcon
+            sx={{ fontSize: 26 }}
+            className="sideNavbarListIcons"
+          />
           This is Hamburger icon just as a menu placeholder
         </ListItemIcon>
       </List>
@@ -39,14 +34,20 @@ function SideNavbar() {
 
       <List className="sideNavbarListContainer">
         <ListItemIcon className="sideNavbarText">
-          <AdminOutLinedIcon className="sideNavbarListIcons" />
+          <AdminOutLinedIcon
+            sx={{ fontSize: 26 }}
+            className="sideNavbarListIcons"
+          />
           This is one Admin icon
         </ListItemIcon>
       </List>
 
       <List className="sideNavbarListContainer">
         <ListItemIcon className="sideNavbarText">
-          <OutdoorGrillOutLinedIcon className="sideNavbarListIcons" />
+          <MenuBookOutlinedIcon
+            sx={{ fontSize: 26 }}
+            className="sideNavbarListIcons"
+          />
           This is an icon representing Recipes
         </ListItemIcon>
       </List>
@@ -54,7 +55,10 @@ function SideNavbar() {
       <Divider />
       <List className="sideNavbarListContainer">
         <ListItemIcon className="sideNavbarText">
-          <AdminOutLinedIcon className="sideNavbarListIcons" />
+          <AdminOutLinedIcon
+            sx={{ fontSize: 26 }}
+            className="sideNavbarListIcons"
+          />
           This is another Admin icon just as a placeholder
         </ListItemIcon>
       </List>
